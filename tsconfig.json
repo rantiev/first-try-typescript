@@ -5,7 +5,10 @@
     "removeComments": true,
     "preserveConstEnums": true,
     "outFile": "build/main.js",
-    "sourceMap": true
+    "sourceMap": true,
+    "target": "ES5",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
   },
   "include": [
     "**/*.ts"
